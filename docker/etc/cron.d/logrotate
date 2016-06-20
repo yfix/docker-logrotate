@@ -1,0 +1,1 @@
+* * * * * root (date; logrotate -v /etc/logrotate.conf) >> /var/log/cron_logrotate.log
