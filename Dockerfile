@@ -8,6 +8,8 @@ RUN rm -f /etc/logrotate.d/* \
 	/etc/cron.daily/* \
 	/etc/cron.weekly/* \ 
 	/etc/cron.monthly/* \
-	/etc/supervisor/conf.d/*
+	/etc/supervisor/conf.d/* \
+	/var/log/*/* \
+	/var/log/*
 
 COPY docker /
