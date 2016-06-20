@@ -1,1 +1,2 @@
-* * * * * root (date; logrotate -v /etc/logrotate.conf) >> /var/log/cron_logrotate.log
+* * * * * root (date; /usr/sbin/logrotate -v /etc/logrotate.conf 2>&1) >> /var/log/cron_logrotate.log
+
