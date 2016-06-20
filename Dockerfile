@@ -9,6 +9,6 @@ RUN rm -f /etc/logrotate.d/* \
 	/etc/cron.weekly/* \ 
 	/etc/cron.monthly/* \
 	/etc/supervisor/conf.d/* \
-	&& find /var/log -f -delete
+	&& find /var/log -type f -delete
 
 COPY docker /
